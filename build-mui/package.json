@@ -1,0 +1,23 @@
+{
+  "name": "build-mui",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "js:dev": "browserify main.js > ../src/material_ui/material.js",
+    "js:min": "NODE_ENV=production browserify main.js | uglifyjs -cm -o ../src/material_ui/material.min.js",
+    "start": "npm run js:dev && npm run js:min"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "clean-css": "^3.1.4",
+    "less": "^2.4.0",
+    "material-ui": "^0.14.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "reactify": "^1.0.0",
+    "uglify-js": "^2.4.16"
+  }
+}
