@@ -12,8 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "browserify": "^9.0.3",
-    "clean-css": "^3.1.4",
-    "less": "^2.4.0",
     "material-ui": "^0.14.4",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
