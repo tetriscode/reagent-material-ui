@@ -1,6 +1,6 @@
 ; shamelessly stolen from https://github.com/tuhlmann/reagent-material
 
-(ns material-ui.macros)
+(ns reagent-material-ui.macros)
 
 (def material-tags
   '[AppBar
