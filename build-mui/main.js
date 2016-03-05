@@ -1,5 +1,5 @@
 (function () {
-  var React = require('react'),
+  var React = require('react/addons'),
     materialUI = require('material-ui');
  
   window.React = React;
