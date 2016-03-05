@@ -1,4 +1,8 @@
 (function () {
-  var materialUI = require('material-ui');
-  window.MaterialUI = materialUI;
+  var React = require('react'),
+    materialUI = require('material-ui');
+ 
+  window.React = React;
+ 
+  window.MaterialUI = materialUI; 
 })();
