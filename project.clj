@@ -3,6 +3,15 @@
   :url "https://github.com/DaveWM/reagent-material-ui"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.7.0"
-                  [org.clojure/clojurescript "1.7.145"]
-                  [reagent "0.5.1"]]])
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [org.clojure/clojurescript "1.7.145"]
+                 [reagent "0.5.1"]]
+  :plugins [[lein-cljsbuild "1.1.3"]
+            [lein-doo "0.1.6"]]
+  :doo {:build "test"}
+  :cljsbuild
+  {:builds [{:id "test"
+             :source-paths ["src" "test"]
+             :compiler {:output-to "resources/public/js/testable.js"
+                        :main reagent-material-ui.runner
+                        :optimizations :none}}]})
