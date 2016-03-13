@@ -30,12 +30,10 @@
     FontIcon
     GridList
     GridTile
-    HorizontalStep
     IconButton
     IconMenu
     LeftNav
     LinearProgress
-    List
     ListItem
     Menu
     MenuItem
@@ -51,9 +49,7 @@
     SelectField
     SelectableContainerEnhance
     Slider
-    Subheader
     SvgIcon
-    Stepper
     Styles
     Snackbar
     Tab
@@ -74,11 +70,11 @@
     ToolbarTitle
     Tooltip
     Utils
-    VerticalStep
     ])
 
 (defn material-ui-react-import [tname]
-  `(def ~tname (reagent.core/adapt-react-class (aget js/MaterialUI ~(name tname)))))
+  `(def ~tname
+     (reagent.core/adapt-react-class (aget js/MaterialUI ~(name tname)))))
 
 (defmacro export-material-ui-react-classes []
   `(do

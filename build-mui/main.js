@@ -1,10 +1,10 @@
 (function () {
   var React = require('react'),
     ReactAddons = require('react-addons'),
-      materialUI = require('material-ui');
+    materialUI = require('material-ui');
 
-      React.classSet = ReactAddons.classSet;
-      window.React = React;
+  React.classSet = ReactAddons.classSet;
 
-      window.MaterialUI = materialUI;
+  window.React = React;
+  window.MaterialUI = materialUI;
 })();
