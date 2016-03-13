@@ -10,7 +10,6 @@
                                               CardTitle
                                               Checkbox
                                               CircularProgress
-                                              ListDivider
                                               FlatButton
                                               FontIcon
                                               GridList
@@ -38,7 +37,6 @@
     CardTitle
     Checkbox
     CircularProgress
-    ListDivider
     FlatButton
     FontIcon
     GridList

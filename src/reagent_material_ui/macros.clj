@@ -4,29 +4,78 @@
 
 (def material-tags
   '[AppBar
+    AppCanvas
+    AutoComplete
     Avatar
+    Badge
+    BeforeAfterWrapper
     Card
     CardActions
+    CardExpandable
     CardHeader
     CardMedia
     CardText
     CardTitle
     Checkbox
     CircularProgress
-    ListDivider
+    ClearFix
+    DatePicker
+    DatePickerDialog
+    Dialog
+    Divider
+    DropDownMenu
+    EnhancedButton
     FlatButton
+    FloatingActionButton
     FontIcon
     GridList
     GridTile
+    HorizontalStep
     IconButton
+    IconMenu
+    LeftNav
+    LinearProgress
     List
     ListItem
+    Menu
+    MenuItem
+    Mixins
+    Overlay
     Paper
+    Popover
+    RadioButton
+    RadioButtonGroup
     RaisedButton
+    RefreshIndicator
+    Ripples
+    SelectField
+    SelectableContainerEnhance
     Slider
-    Tabs
+    Subheader
+    SvgIcon
+    Stepper
+    Styles
+    Snackbar
     Tab
-    TextField])
+    Tabs
+    Table
+    TableBody
+    TableFooter
+    TableHeader
+    TableHeaderColumn
+    TableRow
+    TableRowColumn
+    Toggle
+    TimePicker
+    TextField
+    Toolbar
+    ToolbarGroup
+    ToolbarSeparator
+    ToolbarTitle
+    Tooltip
+    Utils
+    VerticalStep
+    ])
 
 (defn material-ui-react-import [tname]
   `(def ~tname (reagent.core/adapt-react-class (aget js/MaterialUI ~(name tname)))))
