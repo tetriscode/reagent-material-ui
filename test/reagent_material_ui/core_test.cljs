@@ -1,54 +1,145 @@
 (ns reagent-material-ui.core-test
   (:require [cljs.test :refer-macros [deftest is are testing run-tests]]
             [reagent-material-ui.core :refer [AppBar
+                                              AppCanvas
+                                              AutoComplete
                                               Avatar
+                                              Badge
+                                              BeforeAfterWrapper
                                               Card
                                               CardActions
+                                              CardExpandable
                                               CardHeader
                                               CardMedia
                                               CardText
                                               CardTitle
                                               Checkbox
                                               CircularProgress
+                                              ClearFix
+                                              DatePicker
+                                              DatePickerDialog
+                                              Dialog
+                                              Divider
+                                              DropDownMenu
+                                              EnhancedButton
                                               FlatButton
+                                              FloatingActionButton
                                               FontIcon
                                               GridList
                                               GridTile
                                               IconButton
-                                              List
+                                              IconMenu
+                                              LeftNav
+                                              LinearProgress
                                               ListItem
+                                              Menu
+                                              MenuItem
+                                              Mixins
+                                              Overlay
                                               Paper
+                                              Popover
+                                              RadioButton
+                                              RadioButtonGroup
                                               RaisedButton
+                                              RefreshIndicator
+                                              Ripples
+                                              SelectField
+                                              SelectableContainerEnhance
                                               Slider
-                                              Tabs
+                                              SvgIcon
+                                              Styles
+                                              Snackbar
                                               Tab
-                                              TextField]]
+                                              Tabs
+                                              Table
+                                              TableBody
+                                              TableFooter
+                                              TableHeader
+                                              TableHeaderColumn
+                                              TableRow
+                                              TableRowColumn
+                                              Toggle
+                                              TimePicker
+                                              TextField
+                                              Toolbar
+                                              ToolbarGroup
+                                              ToolbarSeparator
+                                              ToolbarTitle
+                                              Tooltip
+                                              Utils
+                                              ]]
             [reagent.impl.component :refer [reagent-class?]]))
+
 (deftest components
   (testing "Components should exist")
   (are [component] ((complement nil?) component)
-    AppBar
-    Avatar
-    Card
-    CardActions
-    CardHeader
-    CardMedia
-    CardText
-    CardTitle
-    Checkbox
-    CircularProgress
-    FlatButton
-    FontIcon
-    GridList
-    GridTile
-    IconButton
-    List
-    ListItem
-    Paper
-    RaisedButton
-    Slider
-    Tabs
-    Tab
-    TextField))
+       AppBar
+       AppCanvas
+       AutoComplete
+       Avatar
+       Badge
+       BeforeAfterWrapper
+       Card
+       CardActions
+       CardExpandable
+       CardHeader
+       CardMedia
+       CardText
+       CardTitle
+       Checkbox
+       CircularProgress
+       ClearFix
+       DatePicker
+       DatePickerDialog
+       Dialog
+       Divider
+       DropDownMenu
+       EnhancedButton
+       FlatButton
+       FloatingActionButton
+       FontIcon
+       GridList
+       GridTile
+       IconButton
+       IconMenu
+       LeftNav
+       LinearProgress
+       ListItem
+       Menu
+       MenuItem
+       Mixins
+       Overlay
+       Paper
+       Popover
+       RadioButton
+       RadioButtonGroup
+       RaisedButton
+       RefreshIndicator
+       Ripples
+       SelectField
+       SelectableContainerEnhance
+       Slider
+       SvgIcon
+       Styles
+       Snackbar
+       Tab
+       Tabs
+       Table
+       TableBody
+       TableFooter
+       TableHeader
+       TableHeaderColumn
+       TableRow
+       TableRowColumn
+       Toggle
+       TimePicker
+       TextField
+       Toolbar
+       ToolbarGroup
+       ToolbarSeparator
+       ToolbarTitle
+       Tooltip
+       Utils
+       ))
 
 
