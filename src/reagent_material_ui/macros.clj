@@ -1,6 +1,7 @@
 ; shamelessly stolen from https://github.com/tuhlmann/reagent-material
 
-(ns reagent-material-ui.macros)
+(ns reagent-material-ui.macros
+  (:refer-clojure :exclude [List]))
 
 (def material-tags
   '[AppBar
@@ -70,6 +71,11 @@
     ToolbarTitle
     Tooltip
     Utils
+
+    ;; The following exist in cljs.core and shadow the core versions.
+    ;; Some related errors I can see, but no solution yet for Stepper.
+    List
+    ; Stepper
     ])
 
 (defn material-ui-react-import [tname]

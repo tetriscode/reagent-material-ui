@@ -1,4 +1,5 @@
 (ns reagent-material-ui.core-test
+  (:refer-clojure :exclude [List])
   (:require [cljs.test :refer-macros [deftest is are testing run-tests]]
             [reagent-material-ui.core :refer [AppBar
                                               AppCanvas
@@ -67,6 +68,9 @@
                                               ToolbarTitle
                                               Tooltip
                                               Utils
+                                              
+                                              ;;
+                                              List
                                               ]]
             [reagent.impl.component :refer [reagent-class?]]))
 
@@ -140,6 +144,10 @@
        ToolbarTitle
        Tooltip
        Utils
+
+       ;;
+       List
+       Stepper
        ))
 
 
