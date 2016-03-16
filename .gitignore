@@ -4,5 +4,9 @@ npm-debug.log
 */node_modules
 pom.xml
 target
-out
-resources
+/*.iml
+/.idea
+/doo-index.html
+/out
+/resources
+/node_modules
