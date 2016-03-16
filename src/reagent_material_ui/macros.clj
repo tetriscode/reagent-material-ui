@@ -1,15 +1,13 @@
 ; shamelessly stolen from https://github.com/tuhlmann/reagent-material
 
-(ns reagent-material-ui.macros
-  (:refer-clojure :exclude [List]))
+(ns reagent-material-ui.macros)
 
 (def material-tags
-  '[AppBar
-    AppCanvas
+  '[
+    AppBar
     AutoComplete
     Avatar
     Badge
-    BeforeAfterWrapper
     Card
     CardActions
     CardExpandable
@@ -19,13 +17,10 @@
     CardTitle
     Checkbox
     CircularProgress
-    ClearFix
     DatePicker
-    DatePickerDialog
     Dialog
     Divider
     DropDownMenu
-    EnhancedButton
     FlatButton
     FloatingActionButton
     FontIcon
@@ -35,23 +30,18 @@
     IconMenu
     LeftNav
     LinearProgress
+    List
     ListItem
     Menu
     MenuItem
-    Mixins
-    Overlay
     Paper
     Popover
     RadioButton
     RadioButtonGroup
     RaisedButton
-    RefreshIndicator
-    Ripples
     SelectField
-    SelectableContainerEnhance
     Slider
     SvgIcon
-    Styles
     Snackbar
     Tab
     Tabs
@@ -70,12 +60,6 @@
     ToolbarSeparator
     ToolbarTitle
     Tooltip
-    Utils
-
-    ;; The following exist in cljs.core and shadow the core versions.
-    ;; Some related errors I can see, but no solution yet for Stepper.
-    List
-    ; Stepper
     ])
 
 (defn material-ui-react-import [tname]
