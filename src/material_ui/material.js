@@ -1,11 +1,13 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 (function () {
     var React = require('react'),
+	reactDOM = require('react-dom'),
 	materialUI = require('material-ui'),
 	injectTapEventPlugin = require("react-tap-event-plugin");
 
     window.React = React;
     window.MaterialUI = materialUI;
+    window.ReactDOM = reactDOM;
 
     //Needed for onTouchTap
     //Can go away when react 1.0 release
@@ -14,7 +16,7 @@
     injectTapEventPlugin();
 })();
 
-},{"material-ui":117,"react":377,"react-tap-event-plugin":242}],2:[function(require,module,exports){
+},{"material-ui":117,"react":377,"react-dom":237,"react-tap-event-plugin":242}],2:[function(require,module,exports){
 /*!
   * Bowser - a browser detector
   * https://github.com/ded/bowser
