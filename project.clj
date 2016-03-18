@@ -1,4 +1,4 @@
-(defproject reagent-material-ui "0.2.0-SNAPSHOT"
+(defproject reagent-material-ui "0.2.1-SNAPSHOT"
   :description "Material UI components for reagent"
   :url "https://github.com/DaveWM/reagent-material-ui"
   :license {:name "Eclipse Public License"
