@@ -7,7 +7,7 @@ Thanks to the maintainers of [reagent-material](https://github.com/tuhlmann/reag
 
 ## Usage
 
-Just add `[reagent-material-ui "0.2.1-SNAPSHOT"]` to your `project.clj`, then require the components like so:
+Just add `[reagent-material-ui "0.2.1"]` to your `project.clj`, then require the components like so:
 
 ```clojure
 (ns your-project.example
