@@ -10,7 +10,6 @@
     Badge
     Card
     CardActions
-    CardExpandable
     CardHeader
     CardMedia
     CardText
@@ -20,6 +19,7 @@
     DatePicker
     Dialog
     Divider
+    Drawer
     DropDownMenu
     FlatButton
     FloatingActionButton
@@ -28,7 +28,6 @@
     GridTile
     IconButton
     IconMenu
-    LeftNav
     LinearProgress
     List
     ListItem
@@ -39,9 +38,15 @@
     RadioButton
     RadioButtonGroup
     RaisedButton
+    RefreshIndicator
     SelectField
     Slider
     SvgIcon
+    Step
+    StepButton
+    StepContent
+    StepLabel
+    Stepper
     Snackbar
     Tab
     Tabs
@@ -59,7 +64,6 @@
     ToolbarGroup
     ToolbarSeparator
     ToolbarTitle
-    Tooltip
     ])
 
 (defn material-ui-react-import [tname]

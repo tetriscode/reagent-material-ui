@@ -12,7 +12,6 @@
        m/Badge
        m/Card
        m/CardActions
-       m/CardExpandable
        m/CardHeader
        m/CardMedia
        m/CardText
@@ -22,6 +21,7 @@
        m/DatePicker
        m/Dialog
        m/Divider
+       m/Drawer
        m/DropDownMenu
        m/FlatButton
        m/FloatingActionButton
@@ -30,7 +30,6 @@
        m/GridTile
        m/IconButton
        m/IconMenu
-       m/LeftNav
        m/LinearProgress
        m/List
        m/ListItem
@@ -45,6 +44,11 @@
        m/Slider
        m/SvgIcon
        m/Snackbar
+       m/Step
+       m/StepButton
+       m/StepContent
+       m/StepLabel
+       m/Stepper
        m/Tab
        m/Tabs
        m/Table
@@ -61,7 +65,6 @@
        m/ToolbarGroup
        m/ToolbarSeparator
        m/ToolbarTitle
-       m/Tooltip
        ))
 
 
