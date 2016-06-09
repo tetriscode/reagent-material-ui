@@ -15,11 +15,3 @@ Just add `[reagent-material-ui "0.2.1"]` to your `project.clj`, then require the
 ```
 
 You can then use the Material UI components as you would normal reagent components. See the [Material UI docs](http://www.material-ui.com/#/components/app-bar) for more info about the different components.
-
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
