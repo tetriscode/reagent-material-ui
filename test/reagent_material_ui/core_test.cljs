@@ -10,6 +10,8 @@
        m/AutoComplete
        m/Avatar
        m/Badge
+       m/BottomNavigation
+       m/BottomNavigationItem
        m/Card
        m/CardActions
        m/CardHeader
@@ -17,6 +19,7 @@
        m/CardText
        m/CardTitle
        m/Checkbox
+       m/Chip
        m/CircularProgress
        m/DatePicker
        m/Dialog
@@ -40,15 +43,17 @@
        m/RadioButton
        m/RadioButtonGroup
        m/RaisedButton
+       m/RefreshIndicator
        m/SelectField
        m/Slider
-       m/SvgIcon
        m/Snackbar
        m/Step
        m/StepButton
        m/StepContent
        m/StepLabel
        m/Stepper
+       m/Subheader
+       m/SvgIcon
        m/Tab
        m/Tabs
        m/Table
@@ -58,9 +63,9 @@
        m/TableHeaderColumn
        m/TableRow
        m/TableRowColumn
-       m/Toggle
        m/TimePicker
        m/TextField
+       m/Toggle
        m/Toolbar
        m/ToolbarGroup
        m/ToolbarSeparator
