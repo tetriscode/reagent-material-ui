@@ -8,6 +8,7 @@
     AutoComplete
     Avatar
     Badge
+    BottomNavigation
     Card
     CardActions
     CardHeader
@@ -15,6 +16,7 @@
     CardText
     CardTitle
     Checkbox
+    Chip
     CircularProgress
     DatePicker
     Dialog
@@ -41,13 +43,14 @@
     RefreshIndicator
     SelectField
     Slider
-    SvgIcon
+    Snackbar
     Step
     StepButton
     StepContent
     StepLabel
     Stepper
-    Snackbar
+    Subheader
+    SvgIcon
     Tab
     Tabs
     Table
@@ -57,9 +60,9 @@
     TableHeaderColumn
     TableRow
     TableRowColumn
-    Toggle
     TimePicker
     TextField
+    Toggle
     Toolbar
     ToolbarGroup
     ToolbarSeparator
