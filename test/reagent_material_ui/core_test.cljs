@@ -11,6 +11,7 @@
        m/Avatar
        m/Badge
        m/BottomNavigation
+       m/BottomNavigationItem
        m/Card
        m/CardActions
        m/CardHeader

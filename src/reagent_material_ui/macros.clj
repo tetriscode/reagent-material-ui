@@ -9,6 +9,7 @@
     Avatar
     Badge
     BottomNavigation
+    BottomNavigationItem
     Card
     CardActions
     CardHeader
