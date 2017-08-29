@@ -13,7 +13,7 @@ providing the build process for the material ui javascript.
 
 ## Usage
 
-Just add `[reagent-material-ui "0.2.4"]` to your `project.clj`, then require the components like so:
+Just add `[reagent-material-ui "0.2.5"]` to your `project.clj`, then require the components like so:
 
 ```clojure
 (ns your-project.example
